@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entity;
+package font;
+
+import back.tinhhinh;
 
 /**
  *
  * @author ADMIN
  */
-public  class Hinhchunhat {
-    public  float tinhchuvi(float a, float b){
-        return (a+b)*2;
-        
-    }
-    public float tinhdientich(float a, float b){
-        return a * b;
+public class test2 {
+    public static void main(String[] args) {
+        tinhhinh th = new  tinhhinh();
+        th.hinhchunhat();
+        th.hinhvuong();
     }
 }
