@@ -1,1 +1,0 @@
-select * from TestingSystem.Testing_Category;
